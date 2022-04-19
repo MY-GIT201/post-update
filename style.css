@@ -1,0 +1,146 @@
+/* *{
+    background-color: white;
+    border: 50px white ;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(img/pexels-simon-berger-1323550.jpg)
+    ;
+    background-size: 100% 50%;
+    background-position: 50% 10px;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+.nav-links ul li ::after{
+content: '';
+width: 100%;
+height: 2px;
+background: #f44336;
+display: block;
+margin: auto;
+transition: 0.5s;
+}
+
+.nav-links ul li :hover::after{
+    width: 100%;
+
+} */
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.wrapper {
+    background-image: url(img/pexels-element-digital-1051075.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.4);
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    padding: 5px 100px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: red;
+    border-radius: 5px;
+}
+
+.wrapper .center {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center h1 {
+    color: red;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+
+}
+
+.center h2 {
+    color: grey;
+    font-size: 40px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 25px;
+    text-align: center;
+
+
+}
+
+.center .buttons {
+    margin: 35px 280px;
+}
