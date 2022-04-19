@@ -61,43 +61,43 @@ transition: 0.5s;
     width: 100%;
 
 } */
-* {
+*{
     padding: 0;
     margin: 0;
 
 }
 
-.wrapper {
+.wrapper{
     background-image: url(img/pexels-element-digital-1051075.jpg);
     background-size: cover;
     height: 100vh;
 }
 
-.navbar {
+.navbar{
     height: 80px;
     width: 100%;
-    background: rgb(0, 0, 0, 0.4);
+    background: rgb(0,0,0,0.4);  
 }
 
-.logo {
-    width: 100px;
+.logo{
+    width:  100px;
     height: auto;
     padding: 5px 100px;
 }
 
-.navbar ul {
+.navbar ul{
     float: right;
     margin-right: 20px;
 }
 
-.navbar ul li {
+.navbar ul li{
     list-style: none;
     margin: 0 8px;
     display: inline-block;
     line-height: 80px;
 }
 
-.navbar ul li a {
+.navbar ul li a{
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -106,13 +106,13 @@ transition: 0.5s;
     transition: .4s;
 }
 
-.navbar ul li a.active,
-.navbar ul li a:hover {
+.navbar ul li a.active, 
+.navbar ul li a:hover{
     background: red;
     border-radius: 5px;
 }
 
-.wrapper .center {
+.wrapper .center{
     position: absolute;
     top: 50%;
     left: 55%;
@@ -121,7 +121,7 @@ transition: 0.5s;
     user-select: none;
 }
 
-.center h1 {
+.center h1{
     color: red;
     font-size: 70px;
     font-weight: bold;
@@ -140,7 +140,7 @@ transition: 0.5s;
 
 
 }
-
-.center .buttons {
+.center .buttons{
     margin: 35px 280px;
 }
+
